@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Azmi Ananda">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- font roboto, poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Portfolio | Azmi Ananda</title>
+</head>
+
+<body class="font-poppins w-full">
+
+  <!-- Header Start -->
+  <header
+    class="w-full shadow-lg h-19 px-5 flex items-center fixed left-0 right-0 top-0 z-[9999] bg-emerald-700 lg:px-28">
+    <div class="container mx-auto flex justify-between items-center">
+
+      <div class="flex items-center">
+        <h1 class="font-bold text-lg text-white lg:text-xl">SynnoraCode</h1>
+      </div>
+
+      <button type="menu" id="btn-menu" class="p-[5px] rounded-md cursor-pointer md:hidden"
+        aria-label="Buka menu navigasi">
+        <span class="block w-[25px] h-[2px] bg-white rounded-full origin-top-left"></span>
+        <span class="block w-[25px] h-[2px] bg-white mt-[5px] rounded-full"></span>
+        <span class="block w-[25px] h-[2px] bg-white mt-[5px] rounded-full origin-bottom-left"></span>
+      </button>
+
+      <nav id="navbar"
+        class="absolute top-19 left-0 right-0 shadow-lg h-0 overflow-hidden transition-all duration-300 bg-emerald-700 md:static md:overflow-visible md:bg-transparent md:h-auto md:shadow-none md:transition-none md:duration-[0]">
+        <ul class="flex flex-col gap-3 px-5 pt-2 pb-5 md:flex-row md:p-0 md:gap-10">
+          <li><a href="./">Beranda</a></li>
+          <li><a href="./about.html">Tentang Saya</a></li>
+          <li><a href="./skills.html">Keahlian</a></li>
+          <li><a href="./projects.html">Proyek</a></li>
+          <li><a href="./contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- hero section -->
+  <section class="w-full mx-auto mt-19 pt-18 px-5 lg:px-28 mb-30">
+    <div class="container mx-auto">
+      <div class="flex gap-10 flex-wrap justify-between items-center">
+        <div class="flex flex-col gap-1">
+          <h1 data-aos="zoom-in" data-aos-duration="2000" class="font-bold text-2xl text-hitam md:text-3xl lg:text-4xl">
+            Hello 👋, saya <span class="text-emerald-700">Azmi
+              Ananda</span>
+          </h1>
+          <h2 class="font-bold text-emerald-700 md:text-lg lg:text-xl" data-aos="zoom-in" data-aos-duration="2000">
+            <span id="typed-text"></span>
+          </h2>
+          <p data-aos="zoom-in" data-aos-duration="2000"
+            class="text-[12px] md:text-[14px] text-balance text-[#3f3f3f] font-semibold lg:text-base lg:w-[490px]">
+            menciptakan antarmuka
+            web
+            modern yang
+            responsif dan
+            manarik
+            untuk
+            pengalaman
+            pengguna
+            yang
+            optimal.</p>
+          <div class="flex gap-4 mt-6 text-[13px] font-medium md:text-base">
+            <a href="./about.html"><button
+                class=" py-2 px-6 rounded-full bg-emerald-700 text-white cursor-pointer shadow-md" data-aos="zoom-in"
+                data-aos-duration="2000">Tentang
+                Saya</button></a>
+            <a href="./contact.html"><button
+                class=" py-2 px-6 rounded-full bg-emerald-700 text-white cursor-pointer shadow-md" data-aos="zoom-in"
+                data-aos-duration="2000">Kontak
+                Saya</button></a>
+          </div>
+        </div>
+        <div class="flex justify-center w-full lg:w-auto mt-10">
+          <img src="./src/assets/img/Virtual reality-amico.svg" alt="" class="w-[600px] md:w-[300px] lg:w-[350px]"
+            data-aos="zoom-in" data-aos-duration="2000">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <img src="./src/assets/img/get-waves.svg" alt="get waves" class="md:hidden -h-2">
+
+
+  <footer class="w-full pt-2 px-5 md:mb-10 lg:px-28 bg-hitam md:bg-white">
+    <div class="container mx-auto md:bg-hitam md:px-10 md:py-5 md:rounded-xl">
+      <div class="flex flex-wrap gap-x-15 mt-5">
+        <div class="flex flex-col gap-1 mb-10">
+          <h1 class="font-semibold text-md mb-2 text-white md:text-lg">SynnoraCode</h1>
+          <p class="text-[#bababa] text-[13px] md:text-[14px]">Jl. Sekip, Gg. Penghulu No 2,</p>
+          <p class="text-[#bababa] text-[13px] md:text-[14px]">Sei Putih timur I, Medan Petisah,</p>
+          <p class="text-[#bababa] text-[13px] md:text-[14px]">Kota Medan, Sumatra Utara, Indonesia</p>
+          <p class="text-[#bababa] text-[13px] mt-3 md:text-[14px]">+62 852-7049-0069</p>
+          <p class="text-[#bababa] text-[13px] md:text-[14px]">azmiananda2004@gmail.com</p>
+        </div>
+        <div class="flex flex-col gap-2 mb-10">
+          <h1 class="font-semibold text-md mb-2 text-white md:text-lg">Media Sosial</h1>
+          <a href="https://wa.me/6285270490069" target="_blank" class="text-[#bababa] text-[12px] md:text-[14px]">
+            <p><i class="fa-brands fa-whatsapp mr-1 md:text-lg"></i> WhatsApp</p>
+          </a>
+          <a href="https://www.instagram.com/azmiannda/" target="_blank"
+            class="text-[#bababa] text-[12px] md:text-[14px]">
+            <p><i class="fa-brands fa-instagram mr-1 md:text-lg"></i> Instagram</p>
+          </a>
+          <a href="https://www.tiktok.com/@bluestarz_frontend/" target="_blank"
+            class="text-[#bababa] text-[12px] md:text-[14px]">
+            <p><i class="fa-brands fa-tiktok mr-1 md:text-lg"></i> Tiktok</p>
+          </a>
+          <a href="https://www.youtube.com/@bluestarz_1/" target="_blank"
+            class="text-[#bababa] text-[12px] md:text-[14px]">
+            <p><i class="fa-brands fa-youtube mr-1 md:text-lg"></i> Youtube</p>
+          </a>
+          <a href="https://m.facebook.com/BlueStarz01/" target="_blank"
+            class="text-[#bababa] text-[12px] md:text-[14px]">
+            <p><i class="fa-brands fa-facebook mr-1 md:text-lg"></i> Facebook</p>
+          </a>
+        </div>
+        <div class="flex flex-col gap-2 text-[#bababa]">
+          <h1 class="font-semibold text-md text-white mb-2 md:text-lg">
+            Menu</h1>
+          <a href="./"
+            class=" text-[12px] md:text-[15px] hover:text-emerald-500 transition-all duration-300 ease-in-out">Beranda</a>
+          <a href="./about.html"
+            class="text-[12px] md:text-[15px] hover:text-emerald-500 transition-all duration-300 ease-in-out">Tentang
+            Saya</a>
+          <a href="./skills.html"
+            class="text-[12px] md:text-[15px] hover:text-emerald-500 transition-all duration-300 ease-in-out">Keahlian
+            <a href="./projects.html"
+              class="text-[12px] md:text-[15px] hover:text-emerald-500 transition-all duration-300 ease-in-out">Proyek</a>
+            <a href="./contact.html"
+              class="text-[12px] md:text-[15px] hover:text-emerald-500 transition-all duration-300 ease-in-out">Kontak</a>
+        </div>
+      </div>
+      <hr class="border-[#bababa] mt-5">
+      <div class="py-5 md:py-0 md:pt-5">
+        <p class="text-center text-[#bababa] text-xs md:text-[14px] lg:text-base">&copy 2025 <span
+            class="text-emerald-500 font-bold">SynnoraCode
+            🤍</span>. All rights
+          reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script type="module" src="./src/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    const typed = new Typed('#typed-text', {
+      strings: ['Web Developer', 'Frontend Developer', 'Backend Developer'],
+      typeSpeed: 70,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
